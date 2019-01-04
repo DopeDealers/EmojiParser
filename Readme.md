@@ -2,7 +2,9 @@
 ## Installation
 
 ```sh
-npm i --save emojiparser
+npm i --save emoji-parser
+OR
+npm i --save dopedealers/emojiparser
 ```
 
 > LiquidBlast Gang https://liquidblast.net
@@ -10,9 +12,9 @@ npm i --save emojiparser
 ## Examples
 ```js
  const Discord = require("discord.js");
- const Emoji = require("emojiparser");
+ const Emoji = require("emoji-parser");
 
- const e = Emoji(args[0]);
+ const e = Emoji.get(args[0]);
  
  const embed = new Discord.RichEmbed()
     .setImage(e.url)
