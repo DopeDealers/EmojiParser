@@ -5,6 +5,8 @@
 npm i --save emojiparser
 ```
 
+> LiquidBlast Gang https://liquidblast.net
+
 ## Examples
 ```const Discord = require("discord.js");
  const Emoji = require("emojiparser");
@@ -18,6 +20,4 @@ npm i --save emojiparser
 });```
 
 
-
-
-> LiquidBlast Gang https://liquidblast.net
+![OwO](https://raw.githubusercontent.com/DopeDealers/EmojiParser/master/main.jpg)
