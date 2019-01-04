@@ -1,0 +1,15 @@
+{
+  "name": "emoji-parser",
+  "version": "0.0.1",
+  "description": "parse emojis from within discord client",
+  "main": "emoji.js",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DopeDealers/EmojiParser"
+  },
+  "author": "DopeDealers",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
