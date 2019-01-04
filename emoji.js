@@ -11,7 +11,10 @@ static get(emoji) {
     let type = "";
     if (emoji.animated) type = "gif";
     else type = "png";
-    return { url: `https://cdn.discordapp.com/emojis/${emoji.id}.${type}`, id: emoji.id, name: emoji.name, animated: emoji.animated };
+    return { 
+      url: `https://cdn.discordapp.com/emojis/${emoji.id}.${type}`, id: emoji.id, name: emoji.name, animated: emoji.animated }; 
+    
+  
   }
   // shit code
 };
