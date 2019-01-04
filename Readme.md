@@ -8,7 +8,8 @@ npm i --save emojiparser
 > LiquidBlast Gang https://liquidblast.net
 
 ## Examples
-```const Discord = require("discord.js");
+```js
+ const Discord = require("discord.js");
  const Emoji = require("emojiparser");
 
  const e = Emoji(args[0]);
@@ -17,7 +18,7 @@ npm i --save emojiparser
     .setImage(e.url)
     message.channel.send({
     embed
-});```
-
+});
+```
 
 ![OwO](https://raw.githubusercontent.com/DopeDealers/EmojiParser/master/main.jpg)
