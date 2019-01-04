@@ -1,7 +1,7 @@
 {
-  "name": "@dopedealers/emojiparser",
+  "name": "emojiparse.js",
   "version": "0.0.2",
-  "description": "parse emojis from within discord client",
+  "description": "parse emojis from within the discord.js client",
   "main": "emoji.js",
   "repository": {
     "type": "git",
