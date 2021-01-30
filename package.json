@@ -1,15 +1,28 @@
 {
   "name": "emojiparse.js",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "parse emojis from within the discord.js client",
   "main": "emoji.js",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/DopeDealers/EmojiParser"
+    "url": "git+https://github.com/DopeDealers/EmojiParser.git"
   },
   "author": "DopeDealers",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2"
-  }
+    "discord.js": "^12.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DopeDealers/EmojiParser/issues"
+  },
+  "homepage": "https://github.com/DopeDealers/EmojiParser#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Emoji",
+    "Discord",
+    "Coding"
+  ]
 }

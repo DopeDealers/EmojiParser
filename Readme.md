@@ -5,14 +5,14 @@
 npm i --save emojiparse.js
 ```
 
-> LiquidBlast Gang https://liquidblast.net
+> FR sweeb gang
 
 ## Examples
 ```js
  const Discord = require("discord.js");
  const Emoji = require("emojiparse.js");
 
- const e = Emoji.get(args[0]);
+const e = Emoji.get(args[0]);
  
  const embed = new Discord.RichEmbed()
     .setImage(e.url)
@@ -21,4 +21,3 @@ npm i --save emojiparse.js
 });
 ```
 
-![OwO](https://raw.githubusercontent.com/DopeDealers/EmojiParser/master/main.jpg)
